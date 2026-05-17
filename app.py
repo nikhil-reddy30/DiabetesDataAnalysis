@@ -14,7 +14,7 @@ import numpy as np
 
 """
 
-df=pd.read_csv('Dataset of Diabetes.csv')
+df=pd.read_csv('diabetes.csv')
 df.head()
 
 df.shape
