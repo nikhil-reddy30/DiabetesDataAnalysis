@@ -66,7 +66,6 @@ df.dropna(inplace=True)
 
 df.isna().sum()
 
-df[df.duplicated()]
-
+st.dataframme(df)
 df.to_csv('diabetes_cleaned.csv')
 
