@@ -67,6 +67,6 @@ df.dropna(inplace=True)
 
 df.isna().sum()
 
-st.dataframme(df)
+st.dataframe(df)
 df.to_csv('diabetes_cleaned.csv')
 
