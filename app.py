@@ -66,9 +66,6 @@ df.dropna(inplace=True)
 
 df.isna().sum()
 
-from google.colab import drive
-drive.mount('/content/drive')
-
 df[df.duplicated()]
 
 df.to_csv('diabetes_cleaned.csv')
